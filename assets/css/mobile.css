@@ -1,5 +1,26 @@
-@media(max-width: 1024px) {
-    .container {
-        width: 325px;
-      }
-    }
+@media (max-width: 1024px) {
+  .container {
+    width: 325px;
+  }
+
+  .header h2 {
+    font-size: 1.3rem;
+  }
+  .form-control input {
+    font-size: 0.825rem;
+    padding: 6px;
+  }
+
+  .form-control label {
+    font-size: 0.925rem;
+    margin-bottom: 2px;
+  }
+
+  .form-control small {
+    font-size: 0.725rem;
+  }
+
+  .form button {
+    font-size: 0.825rem;
+  }
+}
